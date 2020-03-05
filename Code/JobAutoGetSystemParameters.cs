@@ -52,7 +52,9 @@ namespace TN.SendSMS.Code
         {
             TNAIDModel tnaidModel = new TNAIDModel();
             JobScheduler.EmailObject = tnaidModel.GetSystemParameters();
-            Console.WriteLine($"GET NEW SYSTEM PARAMETERS !");
+            Console.WriteLine("+----------------------------------------------------------------------------------------+");
+            Console.WriteLine($"| GET NEW SYSTEM PARAMETERS !");
+            Console.WriteLine("+----------------------------------------------------------------------------------------+");
         }
     }
 }
