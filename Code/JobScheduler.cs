@@ -34,11 +34,12 @@ namespace TN.SendSMS.Code
                     //        .OnEveryDay()
                     //        .StartingDailyAt(TimeOfDay.HourMinuteAndSecondOfDay(0, 0, 0))
                     //      )
-                    //.WithDailyTimeIntervalSchedule
-                    //      (s =>
-                    //      //s.WithIntervalInMinutes(2)
-                    //      s.WithIntervalInHours(1)
-                    //      )
+                    .WithDailyTimeIntervalSchedule
+                          (s =>
+                          //s.WithIntervalInMinutes(2)
+                          //s.WithIntervalInHours(1)
+                          s.WithIntervalInSeconds(Int32.Parse(AppSettings.TimeSchedule))
+                          )
                     .Build();
                 scheduler.ScheduleJob(job, restartTrigger);
 
@@ -88,8 +89,6 @@ namespace TN.SendSMS.Code
 
                 Thread threadSendSMS = new Thread(sendAll.SendSMSs);
                 threadSendSMS.Start(inputData);
-
-                JobAutoGetSystemParameters.Start();
             }
             catch (Exception e)
             {

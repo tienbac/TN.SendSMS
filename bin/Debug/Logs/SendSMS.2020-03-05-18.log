@@ -1,0 +1,12 @@
+﻿2020-03-05 18:05:02,917 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 18:05:30,058 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 18:05:30,072 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 18:05:46,431 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 18:05:48,064 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 18:05:48,069 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 18:05:48,076 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 18:05:51,028 [DefaultQuartzScheduler_Worker-4] ERROR TN.OrganizeImageFiles.Code - restartJob_Execute 	 System.Collections.Generic.KeyNotFoundException: The given key was not present in the dictionary.
+   at System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   at TN.SendSMS.DataHelper.TNAIDModel.GetSystemParameters() in D:\Documents\GitHub\TN.SendSMS\DataHelper\TNAIDModel.cs:line 46
+   at TN.SendSMS.Code.Job.Execute(IJobExecutionContext context) in D:\Documents\GitHub\TN.SendSMS\Code\JobScheduler.cs:line 81
+2020-03-05 18:06:12,101 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!

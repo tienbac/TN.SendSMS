@@ -17,6 +17,7 @@ namespace TN.SendSMS.Code
         public static string LastIdSMS = ConfigurationManager.AppSettings["LastIdSMS"];
         public static string LastIdEmail = ConfigurationManager.AppSettings["LastIdEmail"];
         public static string TimeGetSystemParameters = ConfigurationManager.AppSettings["TimeGetSystemParameters"];
+        public static string TimeSchedule = ConfigurationManager.AppSettings["TimeSchedule"];
 
         ////PHONE
         //public static string ListPhone = ConfigurationManager.AppSettings["ListPhone"];
