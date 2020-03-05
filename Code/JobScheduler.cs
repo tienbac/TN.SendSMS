@@ -108,7 +108,6 @@ namespace TN.SendSMS.Code
         FileProcess fp = new FileProcess();
         public void SendSMSs(object obj)
         {
-            tngsmsms.Disconnect();
             InputData inputData = (InputData)obj;
             tngsmsms.Connect();
             Console.ForegroundColor = ConsoleColor.Green;
@@ -147,7 +146,7 @@ namespace TN.SendSMS.Code
                         continue;
                     }
                 }
-
+                tngsmsms.Disconnect();
             }
         }
     }
