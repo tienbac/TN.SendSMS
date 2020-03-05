@@ -32,3 +32,12 @@
 2020-03-05 17:18:10,933 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
 2020-03-05 17:18:11,230 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
 2020-03-05 17:18:11,247 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 17:34:28,260 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 17:34:28,778 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 17:34:28,798 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 17:35:30,250 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 17:35:30,582 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 17:35:30,597 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 17:57:03,213 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 17:57:03,778 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 17:57:03,790 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !

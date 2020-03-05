@@ -64,8 +64,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Code\AppSettings.cs" />
-    <Compile Include="Code\AutoGetSystemParameters.cs" />
     <Compile Include="Code\FileProcess.cs" />
+    <Compile Include="Code\JobAutoGetSystemParameters.cs" />
     <Compile Include="Code\JobScheduler.cs" />
     <Compile Include="Entities\ResponseSend.cs" />
     <Compile Include="Entities\TNGSMcom.cs" />
