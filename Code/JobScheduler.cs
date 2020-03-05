@@ -66,7 +66,7 @@ namespace TN.SendSMS.Code
         }
     }
 
-    class Job : IJob
+    partial class Job : IJob
     {
         public void Execute(IJobExecutionContext context)
         {
@@ -89,14 +89,7 @@ namespace TN.SendSMS.Code
                 Thread threadSendSMS = new Thread(sendAll.SendSMSs);
                 threadSendSMS.Start(inputData);
 
-
-                Task.Factory.StartNew(() =>
-                {
-                    Thread.Sleep(300000);
-                    JobScheduler.EmailObject = tnaidModel.GetSystemParameters();
-                    Console.WriteLine($"GET NEW SYSTEM PARAMETERS !");
-                });
-
+                JobAutoGetSystemParameters.Start();
             }
             catch (Exception e)
             {

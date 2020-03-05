@@ -29,3 +29,6 @@
 2020-03-05 17:16:52,729 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
 2020-03-05 17:16:53,145 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
 2020-03-05 17:16:53,185 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 17:18:10,933 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 17:18:11,230 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 17:18:11,247 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
