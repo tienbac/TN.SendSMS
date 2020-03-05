@@ -168,14 +168,15 @@ namespace TN.SendSMS.Code
 
             if (response.EndsWith("\r\nOK\r\n") && response.Contains("+CMGS:"))
             {
-                Console.WriteLine(response);
+                //Console.WriteLine(response);
                 responseSendSms = new ResponseSend(200, response);
                 Utilities.WriteOperationLog($"[SEND SMS ({responseSendSms.Status}) ] : ", $"[SEND SMS TO {toAdress} SUCCESSFUL ! ] [ MESSAGE : {message} ]");
             }
             else
             {
-                Console.WriteLine(response);
+                //Console.WriteLine(response);
                 responseSendSms = new ResponseSend(404, response);
+                Console.WriteLine($"{responseSendSms.Status} - {responseSendSms.Message}");
                 Utilities.WriteErrorLog($"[SEND SMS ({responseSendSms.Status}) ] : ", $"[SEND SMS TO {toAdress} FAIL. TRY AGAIN ! ] [ MESSAGE : {message} ]");
             }
 

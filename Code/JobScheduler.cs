@@ -73,6 +73,7 @@ namespace TN.SendSMS.Code
         {
             try
             {
+                
                 TNSMTPemail tnsmtpemail = new TNSMTPemail();
                 SendAll sendAll = new SendAll();
                 CitilogModel citilogModel = new CitilogModel();
@@ -106,6 +107,7 @@ namespace TN.SendSMS.Code
         FileProcess fp = new FileProcess();
         public void SendSMSs(object obj)
         {
+            tngsmsms.Disconnect();
             InputData inputData = (InputData)obj;
             tngsmsms.Connect();
             Console.ForegroundColor = ConsoleColor.Green;
