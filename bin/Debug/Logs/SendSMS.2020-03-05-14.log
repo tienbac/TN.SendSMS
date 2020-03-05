@@ -1,0 +1,40 @@
+﻿2020-03-05 14:01:10,251 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 14:01:10,566 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:01:10,581 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:03:58,595 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 14:03:59,178 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:03:59,232 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:04:02,418 [16] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL] :  	 [SEND EMAIL TO tienbac250496@gmail.com SUCCESSFUL !]
+2020-03-05 14:04:05,419 [16] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL] :  	 [SEND EMAIL TO tienbac250496@gmail.com SUCCESSFUL !]
+2020-03-05 14:05:01,523 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 14:05:01,979 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:05:01,997 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:05:05,437 [16] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL] :  	 [SEND EMAIL TO tienbac250496@gmail.com SUCCESSFUL !]
+2020-03-05 14:11:15,218 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 14:11:15,681 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:11:15,702 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:11:19,134 [16] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL] :  	 [SEND EMAIL TO tienbac250496@gmail.com SUCCESSFUL !]
+2020-03-05 14:11:22,193 [16] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL] :  	 [SEND EMAIL TO phamtienbac250496@gmail.com SUCCESSFUL !]
+2020-03-05 14:11:25,282 [16] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL] :  	 [SEND EMAIL TO tienbac250496@gmail.com SUCCESSFUL !]
+2020-03-05 14:11:28,761 [16] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL] :  	 [SEND EMAIL TO phamtienbac250496@gmail.com SUCCESSFUL !]
+2020-03-05 14:20:26,009 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 14:20:26,397 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:20:26,414 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:20:29,805 [16] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL] :  	 [SEND EMAIL TO tienbac250496@gmail.com SUCCESSFUL !]
+2020-03-05 14:20:32,947 [16] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL] :  	 [SEND EMAIL TO phamtienbac250496@gmail.com SUCCESSFUL !]
+2020-03-05 14:23:39,469 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 14:23:39,873 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:23:39,894 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:23:55,106 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 14:23:55,467 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:23:55,495 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:34:37,786 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 14:34:38,139 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:34:38,176 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:35:39,153 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 14:35:39,505 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:35:39,531 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:35:49,695 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 14:35:50,015 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:35:50,029 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 14:35:53,994 [16] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL] :  	 [SEND EMAIL TO tienbac250496@gmail.com SUCCESSFUL !]

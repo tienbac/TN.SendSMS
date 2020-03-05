@@ -1,0 +1,10 @@
+﻿2020-03-05 16:05:11,039 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 16:05:11,322 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 16:05:11,338 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 16:05:18,559 [17] INFO  TN.OrganizeImageFiles.Code - [SEND SMS (200) ] :  	 [SEND SMS TO 0382824552 SUCCESSFUL ! ] [ MESSAGE : Camera:13, Ngaygio: 2/18/2020 6:45:19 PM , SuCo: StopF ]
+2020-03-05 16:26:30,661 [1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 16:36:40,036 [1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 16:36:52,041 [1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 16:36:53,498 [1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 16:36:54,346 [1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 16:37:51,462 [1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !

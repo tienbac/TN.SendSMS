@@ -1,0 +1,16 @@
+﻿2020-03-05 15:04:22,915 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 15:04:23,283 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 15:04:23,303 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 15:04:26,813 [16] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL (200) ] :  	 [SEND EMAIL TO tienbac250496@gmail.com SUCCESSFUL !] [ MESSAGE : <html><body><h1>THÔNG BÁO CÓ SỰ CỐ</h1><p>Loại sự cố: StopF</p><p>Ngày giờ: 2/18/2020 6:45:19 PM</p><p>Camera:13</p></body></html> ]
+2020-03-05 15:04:29,837 [16] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL (200) ] :  	 [SEND EMAIL TO phamtienbac250496@gmail.com SUCCESSFUL !] [ MESSAGE : <html><body><h1>THÔNG BÁO CÓ SỰ CỐ</h1><p>Loại sự cố: StopF</p><p>Ngày giờ: 2/18/2020 6:45:19 PM</p><p>Camera:13</p></body></html> ]
+2020-03-05 15:23:55,140 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 15:23:55,433 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 15:23:55,450 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 15:24:29,998 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 15:24:30,496 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 15:24:30,520 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 15:24:33,820 [16] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL (200) ] :  	 [SEND EMAIL TO tienbac250496@gmail.com SUCCESSFUL !] [ MESSAGE : <html><body><h1>THÔNG BÁO CÓ SỰ CỐ</h1><p>Loại sự cố: StopF</p><p>Ngày giờ: 2/18/2020 6:45:19 PM</p><p>Camera:13</p></body></html> ]
+2020-03-05 15:24:37,052 [16] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL (200) ] :  	 [SEND EMAIL TO phamtienbac250496@gmail.com SUCCESSFUL !] [ MESSAGE : <html><body><h1>THÔNG BÁO CÓ SỰ CỐ</h1><p>Loại sự cố: StopF</p><p>Ngày giờ: 2/18/2020 6:45:19 PM</p><p>Camera:13</p></body></html> ]
+2020-03-05 15:44:48,811 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 15:44:49,222 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 15:44:49,263 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
