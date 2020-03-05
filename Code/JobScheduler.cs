@@ -89,6 +89,8 @@ namespace TN.SendSMS.Code
 
                 Thread threadSendSMS = new Thread(sendAll.SendSMSs);
                 threadSendSMS.Start(inputData);
+
+                JobAutoGetSystemParameters.Start();
             }
             catch (Exception e)
             {

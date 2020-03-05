@@ -17,7 +17,6 @@ namespace TN.SendSMS
             {
                 Utilities.WriteDebugLog("Start", "App Started!");
                 JobScheduler.Start();
-                JobAutoGetSystemParameters.Start();
             }
             catch (Exception ex)
             {
