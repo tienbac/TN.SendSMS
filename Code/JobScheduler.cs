@@ -73,7 +73,8 @@ namespace TN.SendSMS.Code
         {
             try
             {
-                
+                ConnectionHelper.CloseConnection(TNAIDModel.connectionTNAID);
+                ConnectionHelper.CloseConnection(CitilogModel.connectionCitiLog);
                 TNSMTPemail tnsmtpemail = new TNSMTPemail();
                 SendAll sendAll = new SendAll();
                 CitilogModel citilogModel = new CitilogModel();

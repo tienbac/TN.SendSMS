@@ -10,3 +10,7 @@
    at TN.SendSMS.DataHelper.TNAIDModel.GetSystemParameters() in D:\Documents\GitHub\TN.SendSMS\DataHelper\TNAIDModel.cs:line 46
    at TN.SendSMS.Code.Job.Execute(IJobExecutionContext context) in D:\Documents\GitHub\TN.SendSMS\Code\JobScheduler.cs:line 81
 2020-03-05 18:06:12,101 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 18:28:08,096 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 18:28:33,072 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 18:28:33,398 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 18:28:33,415 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
