@@ -23,29 +23,28 @@ namespace TN.SendSMS.DataHelper
             {
                 List<IncidentsV80R2E23Historic> list = new List<IncidentsV80R2E23Historic>();
 
-                if (connectionCitiLog == null)
+                using (connectionCitiLog = ConnectionHelper.GetConnection(AppSettings.ConnectionStringCitilog, connectionCitiLog))
                 {
-                    connectionCitiLog =
-                        ConnectionHelper.GetConnection(AppSettings.ConnectionStringCitilog, connectionCitiLog);
-                }
-                SqlCommand cmd = connectionCitiLog.CreateCommand();
-                cmd.CommandText = "SELECT Id, IncType, StartInc, CameraId FROM IncidentsV80R2E23Historic WHERE Id = (SELECT MAX(ID)  FROM IncidentsV80R2E23Historic)";
-                cmd.CommandType = CommandType.Text;
-                SqlDataReader reader = cmd.ExecuteReader();
-                IncidentsV80R2E23Historic incidents = null;
-                if (reader.HasRows)
-                {
-                    while (reader.Read())
+                    SqlCommand cmd = connectionCitiLog.CreateCommand();
+                    cmd.CommandText = "SELECT Id, IncType, StartInc, CameraId FROM IncidentsV80R2E23Historic WHERE Id = (SELECT MAX(ID)  FROM IncidentsV80R2E23Historic)";
+                    cmd.CommandType = CommandType.Text;
+                    SqlDataReader reader = cmd.ExecuteReader();
+                    IncidentsV80R2E23Historic incidents = null;
+                    if (reader.HasRows)
                     {
-                        if (ListIncTypes.Contains(reader.GetString("IncType")))
+                        while (reader.Read())
                         {
-                            incidents = new IncidentsV80R2E23Historic(reader.GetInt32("Id"), reader.GetString("IncType"), reader.GetDateTime(reader.GetOrdinal("StartInc")), reader.GetInt32("CameraId"));
-                            list.Add(incidents);
+                            if (ListIncTypes.Contains(reader.GetString("IncType")))
+                            {
+                                incidents = new IncidentsV80R2E23Historic(reader.GetInt32("Id"), reader.GetString("IncType"), reader.GetDateTime(reader.GetOrdinal("StartInc")), reader.GetInt32("CameraId"));
+                                list.Add(incidents);
+                            }
                         }
                     }
+                    reader.Close();
+                    return list;
                 }
-                reader.Close();
-                return list;
+                
             }
             catch (Exception e)
             {
