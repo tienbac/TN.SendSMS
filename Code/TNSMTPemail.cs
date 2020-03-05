@@ -36,7 +36,9 @@ namespace TN.SendSMS.Code
             }
             catch (Exception ex)
             {
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("Exception is:" + ex.ToString());
+                Console.ForegroundColor = ConsoleColor.White;
                 responseSend = new ResponseSend(404, "Send email fail!");
                 Utilities.WriteErrorLog($"[SEND EMAIL ({responseSend.Status})] : ", $"[SEND EMAIL TO {sendTo} FAIL. TRY AGAIN! ] [MESSAGE : {emailTemplate} ]");
                 return responseSend;
@@ -49,7 +51,9 @@ namespace TN.SendSMS.Code
             var emailSendToList = inputData.EmailObject.SendTo.Split(';');
             foreach (var historic in inputData.Historics)
             {
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine($"ID : {historic.Id} -- IncType : {historic.IncType} -- StartInc : {historic.StartInc} -- CameraId : {historic.CameraId}");
+                Console.ForegroundColor = ConsoleColor.White;
                 if (fp.CheckLastId(historic.Id, AppSettings.LastIdEmail))
                 {
                     foreach (var email in emailSendToList)
@@ -70,7 +74,7 @@ namespace TN.SendSMS.Code
                 else
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine("ID HAS EXIST! Email was send!");
+                    Console.WriteLine($"ID {historic.Id} HAS EXIST! Email was send!");
                     Console.ForegroundColor = ConsoleColor.White;
                     continue;
                 }

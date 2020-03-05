@@ -42,7 +42,7 @@ namespace TN.SendSMS.Code
                           )
                     .Build();
                 scheduler.ScheduleJob(job, restartTrigger);
-
+                JobAutoGetSystemParameters.Start();
             }
             catch (Exception ex)
             {
@@ -73,8 +73,6 @@ namespace TN.SendSMS.Code
         {
             try
             {
-                //ConnectionHelper.CloseConnection(TNAIDModel.connectionTNAID);
-                //ConnectionHelper.CloseConnection(CitilogModel.connectionCitiLog);
                 TNSMTPemail tnsmtpemail = new TNSMTPemail();
                 SendAll sendAll = new SendAll();
                 CitilogModel citilogModel = new CitilogModel();
@@ -91,8 +89,6 @@ namespace TN.SendSMS.Code
 
                 Thread threadSendSMS = new Thread(sendAll.SendSMSs);
                 threadSendSMS.Start(inputData);
-
-                JobAutoGetSystemParameters.Start();
             }
             catch (Exception e)
             {
@@ -119,12 +115,16 @@ namespace TN.SendSMS.Code
                 var phones = inputData.EmailObject.SMSSendTo.Split(';');
                 foreach (var historic in inputData.Historics)
                 {
+                    Console.ForegroundColor = ConsoleColor.White;
                     Console.WriteLine($"ID : {historic.Id} -- IncType : {historic.IncType} -- StartInc : {historic.StartInc} -- CameraId : {historic.CameraId}");
+                    Console.ForegroundColor = ConsoleColor.White;
                     if (fp.CheckLastId(historic.Id, AppSettings.LastIdSMS))
                     {
                         foreach (var phone in phones)
                         {
+                            Console.ForegroundColor = ConsoleColor.White;
                             Console.WriteLine(phone);
+                            Console.ForegroundColor = ConsoleColor.White;
                             string message = inputData.EmailObject.SMSTemplate.Replace("{IncType}", historic.IncType).Replace("{StartInc}", historic.StartInc.ToString()).Replace(" {CameraId}", historic.CameraId.ToString());
                             var response = tngsmsms.Send(phone, message);
                             Console.ForegroundColor = ConsoleColor.Green;
@@ -141,7 +141,7 @@ namespace TN.SendSMS.Code
                     else
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("ID HAS EXIST! SMS was send!");
+                        Console.WriteLine($"ID {historic.Id} HAS EXIST! SMS was send!");
                         Console.ForegroundColor = ConsoleColor.White;
                         continue;
                     }
