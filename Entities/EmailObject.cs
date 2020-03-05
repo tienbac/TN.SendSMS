@@ -61,5 +61,6 @@ namespace TN.SendSMS.Entities
             Title = title;
             Message = message;
         }
+
     }
 }

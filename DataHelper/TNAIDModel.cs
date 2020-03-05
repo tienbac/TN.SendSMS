@@ -39,17 +39,21 @@ namespace TN.SendSMS.DataHelper
                 }
             }
             reader.Close();
-            EmailObject emailObject = new EmailObject();
-            emailObject.Host = systemparameters["Host"];
-            emailObject.Port = Int32.Parse(systemparameters["Port"]);
-            emailObject.EmailHost = systemparameters["Email"];
-            emailObject.Password = systemparameters["Password"];
-            emailObject.DisplayName = systemparameters["From"];
-            emailObject.Title = systemparameters["EmailTitle"];
-            emailObject.SendTo = systemparameters["EmailSendTo"];
-            emailObject.Message = systemparameters["EmailTemplate"];
-            emailObject.SMSSendTo = systemparameters["SMSSendTo"];
-            emailObject.SMSTemplate = systemparameters["SMSTemplate"];
+            EmailObject emailObject = null;
+            if (systemparameters!= null)
+            {
+                emailObject = new EmailObject();
+                emailObject.Host = systemparameters["Host"];
+                emailObject.Port = Int32.Parse(systemparameters["Port"]);
+                emailObject.EmailHost = systemparameters["Email"];
+                emailObject.Password = systemparameters["Password"];
+                emailObject.DisplayName = systemparameters["From"];
+                emailObject.Title = systemparameters["EmailTitle"];
+                emailObject.SendTo = systemparameters["EmailSendTo"];
+                emailObject.Message = systemparameters["EmailTemplate"];
+                emailObject.SMSSendTo = systemparameters["SMSSendTo"];
+                emailObject.SMSTemplate = systemparameters["SMSTemplate"];
+            }
 
             return emailObject;
         }

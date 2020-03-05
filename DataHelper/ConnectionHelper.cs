@@ -19,7 +19,9 @@ namespace TN.SendSMS.DataHelper
                 Console.WriteLine("+----------------------------------------------------------------------------------------+");
                 Console.WriteLine($"| Opening Connection To {connectionString.Split(';')[1].Replace("Initial Catalog=","Database : ")} ...");
                 connection.Open();
+                Console.ForegroundColor = ConsoleColor.Green;
                 Console.WriteLine("| Connection successful!");
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("+----------------------------------------------------------------------------------------+");
                 Utilities.WriteDebugLog("CONNECTION TO SQL SERVER : ", "Connection successful !");
                 return connection;
@@ -27,7 +29,9 @@ namespace TN.SendSMS.DataHelper
             catch (Exception e)
             {
                 Console.WriteLine("+----------------------------------------------------------------------------------------+");
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine($"| Can't Connection To {connectionString.Split(';')[1].Replace("Initial Catalog=", "Database : ")}!");
+                Console.ForegroundColor = ConsoleColor.White;
                 Console.WriteLine("+----------------------------------------------------------------------------------------+");
                 return null;
             }

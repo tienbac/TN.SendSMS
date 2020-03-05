@@ -54,26 +54,23 @@ namespace TN.SendSMS.Code
         }
         public TNGSMcom Search()
         {
-
-            //foreach (GSMcom com in List())
-            //{
-            //    Console.WriteLine(com.Description + " " + com.Name);
-            //}
-            // or better way using enumerator
-
             IEnumerator enumerator = List().GetEnumerator();
             TNGSMcom com = enumerator.MoveNext() ? (TNGSMcom)enumerator.Current : null;
 
             if (com == null)
             {
                 IsDeviceFound = false;
-                Console.WriteLine("No GSM device found!");
+                Console.WriteLine("+----------------------------------------------------------------------------------------+");
+                Console.WriteLine("| No GSM device found!");
+                Console.WriteLine("+----------------------------------------------------------------------------------------+");
                 //Disconnect();
             }
             else
             {
                 IsDeviceFound = true;
-                Console.WriteLine(com.ToString());
+                Console.WriteLine("+----------------------------------------------------------------------------------------+");
+                Console.WriteLine($"| {com.ToString()}");
+                Console.WriteLine("+----------------------------------------------------------------------------------------+");
                 //Connect();
             }
 

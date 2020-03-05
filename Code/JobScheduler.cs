@@ -16,6 +16,7 @@ namespace TN.SendSMS.Code
     class JobScheduler
     {
         private static IScheduler scheduler;
+        public static EmailObject EmailObject;
 
         public static void Start()
         {
@@ -67,7 +68,6 @@ namespace TN.SendSMS.Code
 
     class Job : IJob
     {
-        public static EmailObject EmailObject;
         public void Execute(IJobExecutionContext context)
         {
             try
@@ -77,16 +77,25 @@ namespace TN.SendSMS.Code
                 CitilogModel citilogModel = new CitilogModel();
                 TNAIDModel tnaidModel = new TNAIDModel();
 
-                EmailObject = tnaidModel.GetSystemParameters();
+                JobScheduler.EmailObject = tnaidModel.GetSystemParameters();
+
                 InputData inputData = new InputData();
                 inputData.Historics = citilogModel.GetAllIncidentsV80R2E23Historics();
-                inputData.EmailObject = EmailObject;
+                inputData.EmailObject = JobScheduler.EmailObject;
 
                 Thread threadSendEmail = new Thread(tnsmtpemail.SendMails);
                 threadSendEmail.Start(inputData);
 
                 Thread threadSendSMS = new Thread(sendAll.SendSMSs);
                 threadSendSMS.Start(inputData);
+
+
+                Task.Factory.StartNew(() =>
+                {
+                    Thread.Sleep(300000);
+                    JobScheduler.EmailObject = tnaidModel.GetSystemParameters();
+                    Console.WriteLine($"GET NEW SYSTEM PARAMETERS !");
+                });
 
             }
             catch (Exception e)
@@ -105,7 +114,10 @@ namespace TN.SendSMS.Code
         {
             InputData inputData = (InputData)obj;
             tngsmsms.Connect();
-            Console.WriteLine($"TN.GSM.SMS connect : {tngsmsms.IsConnected}");
+            Console.ForegroundColor = ConsoleColor.Green;
+            Console.WriteLine($"| TN.GSM.SMS connect : {tngsmsms.IsConnected}");
+            Console.ForegroundColor = ConsoleColor.White;
+            Console.WriteLine("+----------------------------------------------------------------------------------------+");
             if (tngsmsms.IsConnected)
             {
                 var phones = inputData.EmailObject.SMSSendTo.Split(';');
@@ -133,7 +145,7 @@ namespace TN.SendSMS.Code
                     else
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("ID HAS EXIST! Email was send!");
+                        Console.WriteLine("ID HAS EXIST! SMS was send!");
                         Console.ForegroundColor = ConsoleColor.White;
                         continue;
                     }
