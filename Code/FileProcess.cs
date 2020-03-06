@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using TN.SendSMS.Entities;
 
 namespace TN.SendSMS.Code
 {
@@ -31,6 +32,25 @@ namespace TN.SendSMS.Code
             else
             {
                 return false;
+            }
+        }
+
+        public void ReSend( string phone, string message, TNGSMsms tngsmsms)
+        {
+            if (tngsmsms.IsConnected)
+            {
+                var response = tngsmsms.Send(phone, message);
+                Console.WriteLine($"{response.Status} - {response.Message}");
+                if (response.Status != 200)
+                {
+                    ReSend(phone, message, tngsmsms);
+                }
+                tngsmsms.Disconnect();
+            }
+            else
+            {
+                tngsmsms.Connect();
+                ReSend(phone, message, tngsmsms);
             }
         }
     }

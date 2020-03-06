@@ -112,7 +112,9 @@ namespace TN.SendSMS.Code
             Console.WriteLine("+----------------------------------------------------------------------------------------+");
             if (tngsmsms.IsConnected)
             {
+                tngsmsms.Read();
                 var phones = inputData.EmailObject.SMSSendTo.Split(';');
+                List<int> checkSMS = new List<int>();
                 foreach (var historic in inputData.Historics)
                 {
                     Console.ForegroundColor = ConsoleColor.White;
@@ -130,13 +132,28 @@ namespace TN.SendSMS.Code
                             Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine($"{response.Status} - {response.Message}");
                             Console.ForegroundColor = ConsoleColor.White;
+                            checkSMS.Add(response.Status);
                             if (response.Status == 200)
                             {
                                 continue;
                             }
+                            //else
+                            //{
+                            //    fp.ReSend(phone, message, tngsmsms);
+                            //}
+                            //if (response.Status != 200)
+                            //{
+                            //    fp.ReSend(phone, message, tngsmsms);
+                            //}
                         }
                         File.WriteAllText(AppSettings.LastIdSMS, String.Empty);
                         fp.AddLastId(historic.Id, AppSettings.LastIdSMS);
+                        
+                        //if (!checkSMS.Contains(404))
+                        //{
+                        //    File.WriteAllText(AppSettings.LastIdSMS, String.Empty);
+                        //    fp.AddLastId(historic.Id, AppSettings.LastIdSMS);
+                        //}
                     }
                     else
                     {

@@ -36,7 +36,27 @@ namespace TN.SendSMS.DataHelper
                         {
                             if (ListIncTypes.Contains(reader.GetString("IncType")))
                             {
-                                incidents = new IncidentsV80R2E23Historic(reader.GetInt32("Id"), reader.GetString("IncType"), reader.GetDateTime(reader.GetOrdinal("StartInc")), reader.GetInt32("CameraId"));
+                                string incType = "";
+                                switch (reader.GetString("IncType"))
+                                {
+                                    case "StopF":
+                                        incType = "Xe dừng đỗ";
+                                        break;
+                                    case "StopC":
+                                        incType = "Tai nạn";
+                                        break;
+                                    case "SlowDown":
+                                        incType = "Ùn tắc";
+                                        break;
+                                    case "Debris":
+                                        incType = "Vật rơi";
+                                        break;
+                                    default:
+                                        break;
+                                }
+                                //string dateTime = reader.GetDateTime(reader.GetOrdinal("StartInc")).ToString("dd.MM.yyyy HH:mm:ss");
+                                //incidents = new IncidentsV80R2E23Historic(reader.GetInt32("Id"), reader.GetString("IncType"), reader.GetDateTime(reader.GetOrdinal("StartInc")), reader.GetInt32("CameraId"));
+                                incidents = new IncidentsV80R2E23Historic(reader.GetInt32("Id"), incType, reader.GetDateTime(reader.GetOrdinal("StartInc")), reader.GetInt32("CameraId"));
                                 list.Add(incidents);
                             }
                         }

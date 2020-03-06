@@ -126,8 +126,8 @@ namespace TN.SendSMS.Code
 
         public void Read()
         {
-            Console.WriteLine("Reading..");
-
+            ResponseSend responseSendSms;
+            //Console.WriteLine("Reading..");
             gsmPort.WriteLine("AT+CMGF=1"); // Set mode to Text(1) or PDU(0)
             Thread.Sleep(1000); // Give a second to write
             gsmPort.WriteLine("AT+CPMS=\"SM\""); // Set storage to SIM(SM)
@@ -141,13 +141,17 @@ namespace TN.SendSMS.Code
 
             if (response.EndsWith("\r\nOK\r\n"))
             {
-                Console.WriteLine(response);
+                //Console.WriteLine(response);
+                responseSendSms = new ResponseSend(200, response);
+                Utilities.WriteOperationLog($"[READ SMS ({responseSendSms.Status}) ] : ", $"[READ SUCCESSFUL !]");
                 // add more code here to manipulate reponse string.
             }
             else
             {
                 // add more code here to handle error.
-                Console.WriteLine(response);
+                //Console.WriteLine(response);
+                responseSendSms = new ResponseSend(404, response);
+                Utilities.WriteOperationLog($"[READ SMS ({responseSendSms.Status}) ] : ", $"[READ FAIL !]");
             }
 
         }
@@ -176,7 +180,7 @@ namespace TN.SendSMS.Code
             {
                 //Console.WriteLine(response);
                 responseSendSms = new ResponseSend(404, response);
-                Console.WriteLine($"{responseSendSms.Status} - {responseSendSms.Message}");
+                //Console.WriteLine($"{responseSendSms.Status} - {responseSendSms.Message}");
                 Utilities.WriteErrorLog($"[SEND SMS ({responseSendSms.Status}) ] : ", $"[SEND SMS TO {toAdress} FAIL. TRY AGAIN ! ] [ MESSAGE : {message} ]");
             }
 

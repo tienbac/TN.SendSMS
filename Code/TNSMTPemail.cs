@@ -17,8 +17,7 @@ namespace TN.SendSMS.Code
         public ResponseSend SendMail(EmailObject email, string sendTo, string emailTemplate)
         {
             ResponseSend responseSend;
-            SmtpClient client = new SmtpClient(email.Host, email.Port);
-            client.EnableSsl = true;
+            SmtpClient client = new SmtpClient(email.Host, email.Port) {EnableSsl = true};
             MailAddress from = new MailAddress(email.EmailHost, email.DisplayName);
             MailAddress to = new MailAddress(sendTo);
             MailMessage message = new MailMessage(from, to);
