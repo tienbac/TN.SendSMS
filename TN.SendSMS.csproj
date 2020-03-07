@@ -80,6 +80,7 @@
     <Compile Include="DataHelper\TNAIDModel.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\NewTNGSMsms.cs" />
     <Compile Include="SyncService.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -160,14 +160,17 @@ namespace TN.SendSMS.Code
         {
             Console.WriteLine("Sending..");
             ResponseSend responseSendSms;
-            gsmPort.WriteLine("AT+CMGF=1");
+            gsmPort.WriteLine("AT+CMGF=1\r\n");
+            Thread.Sleep(1000);
+            gsmPort.WriteLine("AT+CSCA=SERVICE\r\n");
             Thread.Sleep(1000);
             gsmPort.WriteLine($"AT+CMGS=\"{toAdress}\"");
             Thread.Sleep(1000);
-            gsmPort.WriteLine(message + char.ConvertFromUtf32(26));
-            Thread.Sleep(5000);
+            gsmPort.WriteLine(message + char.ConvertFromUtf32(26) + Environment.NewLine);
+            Thread.Sleep(1000);
 
             string response = gsmPort.ReadExisting();
+            Console.WriteLine(response);
 
 
             if (response.EndsWith("\r\nOK\r\n") && response.Contains("+CMGS:"))

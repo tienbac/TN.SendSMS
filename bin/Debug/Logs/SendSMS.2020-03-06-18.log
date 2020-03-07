@@ -1,0 +1,140 @@
+﻿2020-03-06 18:05:16,684 [1] INFO  TN.OrganizeImageFiles.Code - [SEND SMS (200) ] :  	 [SEND SMS TO +84975891464 SUCCESSFUL ! ] [ MESSAGE : Camera:30, SuCo: Tai nan, ThoiGian: 2/27/2020 3:12:11 PM ]
+2020-03-06 18:14:14,526 [1] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:14:21,538 [1] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84975891464 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:30, SuCo: Tai Nạn, ThoiGian: 2/27/2020 3:12:11 PM ]
+2020-03-06 18:14:34,267 [1] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:14:41,280 [1] INFO  TN.OrganizeImageFiles.Code - [SEND SMS (200) ] :  	 [SEND SMS TO +84975891464 SUCCESSFUL ! ] [ MESSAGE : Camera:30, SuCo: Tai Nạn, ThoiGian: 2/27/2020 3:12:11 PM ]
+2020-03-06 18:18:24,025 [1] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:18:31,057 [1] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84975891464 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:30, SuCo: Tai Nạn, ThoiGian: 2/27/2020 3:12:11 PM ]
+2020-03-06 18:18:53,509 [1] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:19:00,525 [1] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84975891464 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:30, SuCo: Tai Nạn, ThoiGian: 2/27/2020 3:12:11 PM ]
+2020-03-06 18:19:07,528 [1] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84975891464 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:30, SuCo: Tai Nạn, ThoiGian: 2/27/2020 3:12:11 PM ]
+2020-03-06 18:20:14,557 [1] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:20:21,573 [1] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84975891464 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:30, SuCo: Tai Nạn, ThoiGian: 2/27/2020 3:12:11 PM ]
+2020-03-06 18:20:28,576 [1] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84975891464 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:30, SuCo: Tai Nạn, ThoiGian: 2/27/2020 3:12:11 PM ]
+2020-03-06 18:20:42,038 [1] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:20:49,051 [1] INFO  TN.OrganizeImageFiles.Code - [SEND SMS (200) ] :  	 [SEND SMS TO +84975891464 SUCCESSFUL ! ] [ MESSAGE : Camera:30, SuCo: Tai Nạn, ThoiGian: 2/27/2020 3:12:11 PM ]
+2020-03-06 18:30:15,648 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-06 18:30:20,069 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:30:20,083 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:30:24,242 [17] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:30:24,356 [16] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL (200) ] :  	 [SEND EMAIL TO tienbac250496@gmail.com SUCCESSFUL !] [ MESSAGE : <html><body><h1>THÔNG BÁO CÓ SỰ CỐ</h1><p>Loại sự cố: Tai nạn</p><p>Ngày giờ: 2/16/2020 9:00:42 PM</p><p>Camera:32</p></body></html> ]
+2020-03-06 18:30:27,545 [16] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL (200) ] :  	 [SEND EMAIL TO phamtienbac250496@gmail.com SUCCESSFUL !] [ MESSAGE : <html><body><h1>THÔNG BÁO CÓ SỰ CỐ</h1><p>Loại sự cố: Tai nạn</p><p>Ngày giờ: 2/16/2020 9:00:42 PM</p><p>Camera:32</p></body></html> ]
+2020-03-06 18:30:30,001 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:30:31,247 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0382824552 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:30:38,252 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0382824552 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:30:40,004 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:30:40,008 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:30:45,255 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0382824552 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:30:52,258 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0382824552 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:30:59,261 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0382824552 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:31:00,001 [DefaultQuartzScheduler_Worker-4] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:31:00,006 [DefaultQuartzScheduler_Worker-4] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:31:00,006 [DefaultQuartzScheduler_Worker-5] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:31:06,264 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0382824552 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:31:13,267 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0382824552 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:32:46,341 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-06 18:33:00,066 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:33:00,068 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:33:00,078 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:33:04,151 [17] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:33:11,156 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0382824552 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:33:18,161 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0382824552 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:33:20,002 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:33:20,005 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:33:25,166 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0382824552 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:33:30,002 [DefaultQuartzScheduler_Worker-4] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:33:32,169 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0382824552 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:33:39,185 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0382824552 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:33:40,002 [DefaultQuartzScheduler_Worker-5] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:33:40,004 [DefaultQuartzScheduler_Worker-5] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:34:28,433 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-06 18:34:30,083 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:34:40,002 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:34:40,006 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:34:44,101 [17] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:34:51,107 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0382824552 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:34:58,111 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0382824552 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:35:00,002 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:35:00,007 [DefaultQuartzScheduler_Worker-4] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:35:00,011 [DefaultQuartzScheduler_Worker-4] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:36:25,769 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-06 18:36:30,062 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:36:40,002 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:36:40,006 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:36:44,111 [17] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:36:51,117 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0382824552 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:36:58,122 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0382824552 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:37:00,005 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:37:00,008 [DefaultQuartzScheduler_Worker-4] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:37:00,011 [DefaultQuartzScheduler_Worker-4] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:38:39,134 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-06 18:38:40,133 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:38:40,154 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:38:44,299 [17] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:38:51,304 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0382824552 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:39:30,155 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-06 18:39:30,469 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:39:40,002 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:39:40,006 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:39:44,080 [17] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:39:51,086 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84975891464 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:39:58,090 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84975891464 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:40:00,004 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:40:00,009 [DefaultQuartzScheduler_Worker-4] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:40:00,013 [DefaultQuartzScheduler_Worker-4] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:40:20,039 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-06 18:40:20,381 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:40:20,397 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:40:24,506 [17] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:40:30,001 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:40:31,511 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84975891464 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:40:38,515 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84975891464 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:40:40,002 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:40:40,004 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:41:09,026 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-06 18:41:20,065 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:41:20,077 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:41:24,149 [17] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:41:30,001 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:41:31,155 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84975891464 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:41:40,002 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:41:40,003 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:41:44,031 [20] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:42:00,004 [DefaultQuartzScheduler_Worker-4] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:42:00,009 [DefaultQuartzScheduler_Worker-4] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:42:00,010 [DefaultQuartzScheduler_Worker-5] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:42:04,047 [23] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:44:10,267 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-06 18:44:20,072 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:44:20,084 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:44:24,159 [17] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:44:39,768 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-06 18:44:40,201 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:44:40,242 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:44:44,355 [17] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:44:51,361 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84975891464 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:45:00,001 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:45:00,004 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:45:00,006 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:45:04,038 [20] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:52:55,129 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-06 18:53:00,072 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:53:00,086 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:53:04,156 [17] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:53:11,162 [17] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84975891464 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:53:20,000 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:53:20,002 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:53:24,053 [20] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:53:31,059 [20] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84975891464 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:53:40,002 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:53:40,004 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:53:44,037 [23] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:53:51,044 [23] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84975891464 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:54:00,081 [DefaultQuartzScheduler_Worker-4] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:54:00,092 [DefaultQuartzScheduler_Worker-4] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:54:04,157 [26] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:54:11,162 [26] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84975891464 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]
+2020-03-06 18:54:20,002 [DefaultQuartzScheduler_Worker-5] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:54:20,003 [DefaultQuartzScheduler_Worker-5] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-06 18:54:24,035 [29] INFO  TN.OrganizeImageFiles.Code - [READ SMS (404) ] :  	 [READ FAIL !]
+2020-03-06 18:54:31,041 [29] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84975891464 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:32, Ngaygio: 2/16/2020 9:00:42 PM , SuCo: Tai nạn ]

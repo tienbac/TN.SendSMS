@@ -1,0 +1,6 @@
+﻿2020-03-06 16:32:07,142 [1] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0923162626 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:30, SuCo: Tai nan, ThoiGian: 2/27/2020 3:12:11 PM ]
+2020-03-06 16:32:31,036 [1] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0923162626 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:30, SuCo: Tai nan ]
+2020-03-06 16:32:54,012 [1] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0923162626 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:30, SuCo: Tai nan ]
+2020-03-06 16:33:38,685 [1] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO 0923162626 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:30, SuCo: Tai nan, ThoiGian: 2/27/2020 3:12:11 PM ]
+2020-03-06 16:33:55,713 [1] ERROR TN.OrganizeImageFiles.Code - [SEND SMS (404) ] :  	 [SEND SMS TO +84923162626 FAIL. TRY AGAIN ! ] [ MESSAGE : Camera:30, SuCo: Tai nan, ThoiGian: 2/27/2020 3:12:11 PM ]
+2020-03-06 16:36:07,263 [1] INFO  TN.OrganizeImageFiles.Code - [SEND SMS (200) ] :  	 [SEND SMS TO +84986548996 SUCCESSFUL ! ] [ MESSAGE : Camera:30, SuCo: Tai nan, ThoiGian: 2/27/2020 3:12:11 PM ]

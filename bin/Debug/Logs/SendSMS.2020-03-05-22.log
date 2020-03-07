@@ -1,0 +1,49 @@
+﻿2020-03-05 22:39:24,080 [1] DEBUG TN.OrganizeImageFiles.Code - Start 	 App Started!
+2020-03-05 22:39:40,116 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:39:40,139 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:39:43,984 [17] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL (200) ] :  	 [SEND EMAIL TO tienbac250496@gmail.com SUCCESSFUL !] [ MESSAGE : <html><body><h1>THÔNG BÁO CÓ SỰ CỐ</h1><p>Loại sự cố: StopC</p><p>Ngày giờ: 2/16/2020 9:00:42 PM</p><p>Camera:32</p></body></html> ]
+2020-03-05 22:39:48,391 [17] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL (200) ] :  	 [SEND EMAIL TO phamtienbac250496@gmail.com SUCCESSFUL !] [ MESSAGE : <html><body><h1>THÔNG BÁO CÓ SỰ CỐ</h1><p>Loại sự cố: StopC</p><p>Ngày giờ: 2/16/2020 9:00:42 PM</p><p>Camera:32</p></body></html> ]
+2020-03-05 22:40:00,002 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:40:00,004 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:40:00,009 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:40:00,020 [DefaultQuartzScheduler_Worker-4] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:40:20,002 [DefaultQuartzScheduler_Worker-5] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:40:20,013 [DefaultQuartzScheduler_Worker-5] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:40:30,001 [DefaultQuartzScheduler_Worker-6] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:40:30,003 [DefaultQuartzScheduler_Worker-8] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:40:30,003 [DefaultQuartzScheduler_Worker-7] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:40:40,001 [DefaultQuartzScheduler_Worker-9] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:40:40,002 [DefaultQuartzScheduler_Worker-9] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:40:43,443 [24] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL (200) ] :  	 [SEND EMAIL TO tienbac250496@gmail.com SUCCESSFUL !] [ MESSAGE : <html><body><h1>THÔNG BÁO CÓ SỰ CỐ</h1><p>Loại sự cố: StopC</p><p>Ngày giờ: 2/16/2020 9:00:42 PM</p><p>Camera:32</p></body></html> ]
+2020-03-05 22:40:46,618 [24] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL (200) ] :  	 [SEND EMAIL TO phamtienbac250496@gmail.com SUCCESSFUL !] [ MESSAGE : <html><body><h1>THÔNG BÁO CÓ SỰ CỐ</h1><p>Loại sự cố: StopC</p><p>Ngày giờ: 2/16/2020 9:00:42 PM</p><p>Camera:32</p></body></html> ]
+2020-03-05 22:41:00,006 [DefaultQuartzScheduler_Worker-10] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:41:00,007 [DefaultQuartzScheduler_Worker-4] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:41:00,016 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:41:00,016 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:41:00,022 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:41:00,024 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:41:00,053 [DefaultQuartzScheduler_Worker-5] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:41:20,001 [DefaultQuartzScheduler_Worker-6] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:41:20,010 [DefaultQuartzScheduler_Worker-6] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:41:23,620 [28] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL (200) ] :  	 [SEND EMAIL TO tienbac250496@gmail.com SUCCESSFUL !] [ MESSAGE : <html><body><h1>THÔNG BÁO CÓ SỰ CỐ</h1><p>Loại sự cố: StopC</p><p>Ngày giờ: 2/16/2020 9:00:42 PM</p><p>Camera:32</p></body></html> ]
+2020-03-05 22:41:26,829 [28] INFO  TN.OrganizeImageFiles.Code - [SEND EMAIL (200) ] :  	 [SEND EMAIL TO phamtienbac250496@gmail.com SUCCESSFUL !] [ MESSAGE : <html><body><h1>THÔNG BÁO CÓ SỰ CỐ</h1><p>Loại sự cố: StopC</p><p>Ngày giờ: 2/16/2020 9:00:42 PM</p><p>Camera:32</p></body></html> ]
+2020-03-05 22:41:30,000 [DefaultQuartzScheduler_Worker-8] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:41:30,000 [DefaultQuartzScheduler_Worker-10] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:41:30,005 [DefaultQuartzScheduler_Worker-9] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:41:30,008 [DefaultQuartzScheduler_Worker-4] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:41:30,015 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:41:30,017 [DefaultQuartzScheduler_Worker-7] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:41:40,010 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:41:40,015 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:42:00,017 [DefaultQuartzScheduler_Worker-10] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:42:00,017 [DefaultQuartzScheduler_Worker-9] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:42:00,026 [DefaultQuartzScheduler_Worker-3] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:42:00,028 [DefaultQuartzScheduler_Worker-2] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:42:00,031 [DefaultQuartzScheduler_Worker-6] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:42:00,032 [DefaultQuartzScheduler_Worker-8] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:42:00,033 [DefaultQuartzScheduler_Worker-4] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:42:00,040 [DefaultQuartzScheduler_Worker-5] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:42:00,042 [DefaultQuartzScheduler_Worker-10] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:42:00,061 [DefaultQuartzScheduler_Worker-7] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:42:20,010 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
+2020-03-05 22:42:20,013 [DefaultQuartzScheduler_Worker-1] DEBUG TN.OrganizeImageFiles.Code - CONNECTION TO SQL SERVER :  	 Connection successful !
